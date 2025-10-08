@@ -38,11 +38,3 @@ Developed in Python with MariaDB integration.
 Airports act as time portals assigned random eras (past, present, future).
 Travel costs and rewards vary by timeline, teaching players to plan strategically.
 Performance and usability optimized for quick responses and clarity.
-
----
-
-## Team
-
-Developed by: Anika Thasin, Ghazanfar Abbas, Lakindu Ransika, and Nirmani Rajakaruna
-Supervisor: Othman Muath
-Metropolia University of Applied Sciences — Software 1 Project (2025)
