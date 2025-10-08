@@ -1,7 +1,3 @@
-Sure — here’s a **shorter, polished version** of your **Chrono Quest README.md**, keeping it professional and complete but concise (about one-third shorter than before):
-
----
-
 # Chrono Quest
 
 Chrono Quest is a sci-fi educational adventure game where players travel between European airports across different timelines to collect Chrono Shards and restore the flow of time. It teaches strategy, logical thinking, and resource management using Python and MariaDB.
