@@ -1,4 +1,4 @@
-#goal table
+---goal table---
 CREATE TABLE goal (
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(50),
@@ -6,7 +6,7 @@ CREATE TABLE goal (
     probability INT
 );
 
-#game table
+---game table---
 CREATE TABLE game (
     id INT AUTO_INCREMENT PRIMARY KEY,
     credits INT,
@@ -16,13 +16,13 @@ CREATE TABLE game (
     chrono_shards INT DEFAULT 0
 );
 
-#Inserting goals
+---Inserting goals---
 INSERT INTO goal (name, credits, probability) VALUES
 ('Chrono Shard', 0, 5),
 ('Paradox Trap', -750, 3),
 ('Artifact Cache', 500, 4);
 
-#create ports table
+---create ports table---
 CREATE TABLE ports (
     id INT AUTO_INCREMENT PRIMARY KEY,
     game INT,
@@ -30,12 +30,11 @@ CREATE TABLE ports (
     goal INT
 );
 
-
-#Add era to airport table
+---Add era to airport table---
 ALTER TABLE airport ADD COLUMN era VARCHAR(20) DEFAULT 'MODERN';
 
 
-#Set random eras
+---Set random eras---
 UPDATE airport 
 SET era = CASE 
     WHEN RAND() < 0.25 THEN 'ANCIENT'
